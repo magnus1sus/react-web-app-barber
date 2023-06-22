@@ -55,20 +55,20 @@ const Form = () => {
             <input
                 className={'input'}
                 type="text"
-                placeholder={'Страна'}
+                placeholder={'Время'}
                 value={country}
                 onChange={onChangeCountry}
             />
             <input
                 className={'input'}
                 type="text"
-                placeholder={'Улица'}
+                placeholder={'День'}
                 value={street}
                 onChange={onChangeStreet}
             />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
-                <option value={'physical'}>Физ.лицо</option>
-                <option value={'legal'}>Юр.лицо</option>
+                <option value={'physical'}>Мне от 12 лет</option>
+                <option value={'legal'}>Приведу ребёнка</option>
             </select>
         </div>
     );
