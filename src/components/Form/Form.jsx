@@ -60,6 +60,13 @@ const Form = () => {
                 value={country}
                 onChange={onChangeCountry}
             />
+            <input
+                className={'input'}
+                type="time"
+                placeholder={'Время'}
+                value={street}
+                onChange={onChangeStreet}
+            />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
                 <option value={'physical'}>Я старше 15 лет</option>
                 <option value={'legal'}>Я взрослый и хочу привести своего ребёнка</option>
