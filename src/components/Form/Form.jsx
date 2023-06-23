@@ -55,15 +55,22 @@ const Form = () => {
             <h3>Введите ваши данные</h3>
             <input
                 className={'input'}
+                type="input"
+                placeholder={'Ваше имя'}
+                value={country}
+                onChange={onChangeCountry}
+            />
+            <input
+                className={'input'}
                 type="date"
-                placeholder={'Время'}
+                placeholder={'На какой день хотите записаться'}
                 value={country}
                 onChange={onChangeCountry}
             />
             <input
                 className={'input'}
                 type="time"
-                placeholder={'Время'}
+                placeholder={'Укажите время'}
                 value={street}
                 onChange={onChangeStreet}
             />
