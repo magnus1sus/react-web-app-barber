@@ -68,8 +68,8 @@ const Form = () => {
                 onChange={onChangeStreet}
             />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
-                <option value={'physical'}>Физ. лицо</option>
-                <option value={'legal'}>Юр. лицо</option>
+                <option value={'physical'}>Я старше 15 лет</option>
+                <option value={'legal'}>Я взрослый и хочу привести своего ребёнка</option>
             </select>
         </div>
     );
